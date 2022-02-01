@@ -12,7 +12,6 @@ public class App {
         output("-------------");
 
         Cat cat2 = new Cat("Alonzo", "grey", 35);
-
         output("Name: " + cat2.getName());
         output("Fellfarbe " + cat2.getFurColor());
         output("Alter: " + cat2.getAge());
