@@ -5,15 +5,15 @@ public class App {
     public static void main(String[] args) {
 
         Cat cat1 = new Cat("Grizabella", "white", 29);
-        output("Name: " + cat1.getName());
-        output("Fellfarbe " + cat1.getFurColor());
+        output("Name: " + cat1.getStringAttributes("#name"));
+        output("Fellfarbe " + cat1.getStringAttributes("#furColor"));
         output("Alter: " + cat1.getAge());
 
         output("-------------");
 
         Cat cat2 = new Cat("Alonzo", "grey", 35);
-        output("Name: " + cat2.getName());
-        output("Fellfarbe " + cat2.getFurColor());
+        output("Name: " + cat2.getStringAttributes("#name"));
+        output("Fellfarbe " + cat2.getStringAttributes("#furColor"));
         output("Alter: " + cat2.getAge());
         
     }

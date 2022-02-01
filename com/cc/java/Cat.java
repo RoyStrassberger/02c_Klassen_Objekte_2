@@ -14,13 +14,17 @@ public class Cat {
 
     /** Getter */
 
-    public String getName() {
-        return this.name; 
+    public String getStringAttributes(String flag) {
+        switch (flag) {
+            case "#name":
+                return this.name; 
+            case "#furColor":
+                return this.furColor; 
+            default:
+                return "ERROR: ???";
+        }
     }
 
-    public String getFurColor() {
-        return furColor;
-    }
 
     public int getAge() {
         return age;
