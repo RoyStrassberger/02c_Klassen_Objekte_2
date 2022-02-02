@@ -10,6 +10,7 @@ public class App {
         output("Alter: " + cat1.getAge());
         output("Alter: " + cat1.getAge());
         output("Alter: " + cat1.getAge());
+        output("Alter: " + cat1.getAge());
 
         output("-------------");
 
